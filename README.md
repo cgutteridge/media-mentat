@@ -31,7 +31,7 @@ sources even without a dedicated automated parser.
 
 - “Recommend three things I could play in short sessions.”
 - “Would I like Blade Runner?”
-- “You recommended this earlier. What might put me off?”
+- “My friend recommended Blood Meridian. What might put me off?”
 - “Add feedback to this list.”
 - “Make a recommendation document with appeal, possible friction and sources.”
 - “Find and add reliable review and discovery sources for this genre.”
