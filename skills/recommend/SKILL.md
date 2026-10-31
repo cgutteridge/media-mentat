@@ -1,12 +1,14 @@
 ---
 name: recommend
-description: Deliver evidence-gated fiction shortlists and creator gap fills from a private taste record and researched sources. Use for narrative-media recommendations and continued discovery.
+description: Discover media through evidence-gated shortlists and creator gap fills from a private taste record and researched sources. Use when the user wants new things to try; route supplied suggestions and personal warnings to assessment.
 ---
 
 # Evidence-gated recommend
 
 Apply the [main skill](../../SKILL.md). Read [workspace.md](../../references/workspace.md)
 for paths and record format. Work in the established private workspace.
+For a supplied suggestion, “would I like this?” or “what might put me off?”, use
+[Assess](../assess/SKILL.md) rather than requiring a discovery shortlist.
 
 ## Load and scope
 

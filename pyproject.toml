@@ -1,7 +1,7 @@
 [project]
-name = "fiction-recommender-skill"
+name = "taste-adviser-skill"
 version = "0.1.0"
-description = "Portable evidence-gated fiction recommendation skill and helpers"
+description = "Portable media taste advice, suitability assessment and discovery helpers"
 requires-python = ">=3.11"
 dependencies = []
 

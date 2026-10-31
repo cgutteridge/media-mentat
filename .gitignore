@@ -66,6 +66,8 @@
 !/scripts/refresh_locus_rrl.py
 !/scripts/refresh_nebula.py
 !/skills/
+!/skills/assess/
+!/skills/assess/SKILL.md
 !/skills/interview/
 !/skills/interview/SKILL.md
 !/skills/recommend/

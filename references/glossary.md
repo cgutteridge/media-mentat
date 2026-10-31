@@ -1,6 +1,6 @@
 # Recommendation vocabulary
 
-**Stable Work**: An identified narrative work. Identity is stable; editions and
+**Stable Work**: An identified media work, fiction or nonfiction. Identity is stable; editions and
 adaptations may need distinct identifiers. A work itself does not become stale.
 
 **Living List**: A collection whose membership can change, such as an award

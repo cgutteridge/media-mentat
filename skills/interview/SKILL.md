@@ -1,6 +1,6 @@
 ---
 name: interview
-description: Probe why a user enjoys narrative media using individual and comparative questions, preserving multiple taste clusters. Use during setup, for targeted taste gaps, and after recommendation feedback.
+description: Probe why a user enjoys media using individual and comparative questions, preserving multiple taste clusters. Use during setup, for targeted taste gaps, and after reactions to advice or recommendations.
 ---
 
 # Taste interview

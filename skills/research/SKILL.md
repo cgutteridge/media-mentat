@@ -1,6 +1,6 @@
 ---
 name: research
-description: Gather and refresh evidence for fiction recommendations using official lists, bibliographies, adjacency sources and edition checks. Use when findings are missing, stale, or too narrow for the requested medium or taste cluster.
+description: Gather evidence for personal media advice using official lists, bibliographies, criticism and edition checks. Use for suitability assessments, possible turn-offs, discovery, or missing and stale evidence.
 ---
 
 # Research pass
@@ -9,6 +9,10 @@ Read the [main skill](../../SKILL.md), the relevant private taste clusters and
 constraints, [source defaults](../../references/sources.md) and the private
 `sources.md` overlay. Determine which lane, medium, date range or factual question
 needs evidence. The defaults describe SF/fantasy coverage, not the user's taste.
+For a supplied work, research that work directly; award/list membership is not a
+prerequisite for advice. Extend to nonfiction or other media with appropriate
+sources and explicit coverage limits. Verify requested concerns separately from
+positive fit evidence; no mention of a concern is not evidence of its absence.
 
 ## Living Lists
 

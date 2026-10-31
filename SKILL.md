@@ -1,9 +1,9 @@
 ---
-name: fiction-recommender
-description: Learn a user's narrative-media tastes from shelf photos and conversation, research candidates, and recommend fiction with spoiler and evidence checks. Use for initial setup, taste interviews, recommendation feedback, and fiction discovery.
+name: taste-adviser
+description: Learn a user's media tastes, assess whether they will enjoy a suggested work, flag likely turn-offs, and discover things to try. Use for taste interviews, recommendations from other people, personal suitability checks, and media discovery.
 ---
 
-# Fiction recommender
+# Taste adviser
 
 Use this package with any agent that can read files and hold a conversation.
 Use the host's available image, web and command tools; no particular app,
@@ -35,10 +35,16 @@ files: follow them directly if the host has no nested-skill discovery.
 | --- | --- |
 | New user or missing taste record | [Setup](skills/setup/SKILL.md) |
 | Initial questions, changed tastes, uncertain fit, repeated misses | [Interview](skills/interview/SKILL.md) |
+| “Would I like this?”, someone else's suggestion, possible turn-offs or personal warnings | [Assess](skills/assess/SKILL.md) |
 | Missing/stale evidence, source discovery, bibliography or availability checks | [Research](skills/research/SKILL.md) |
 | Shortlist, recommendations or gap fills | [Recommend](skills/recommend/SKILL.md) |
 
-SF/fantasy is the initial source coverage, not an inferred personal preference.
+Advise on personal fit across media, including fiction and nonfiction. Discovery
+is one mode; assessing a supplied suggestion and explaining possible friction are
+equally important. Distinguish personal suitability from general quality or popularity.
+SF/fantasy is the initial source coverage, not an inferred personal preference
+or the limit of the advisory workflow. Other areas need appropriate research;
+the existing novel/novella pull is not an exhaustive books or media catalogue.
 Learn formats, exclusions, length, region and comfort/stretch balance from the user.
 Support multiple distinct taste clusters; liking two works does not imply liking
 their midpoint or every shared genre/trope.
@@ -50,7 +56,7 @@ theme and craft without plot revelations, unless the per-work Consumption certai
 is `consumed` or explicitly `won't-read`. Unlisted works are `unknown`.
 Declining a work, abandoning it or owning it does not grant spoiler permission.
 
-Recommendations need the private taste record, source evidence and any required
+Advice needs the private taste record, source evidence and any required
 Finding cache records. Missing evidence or findings stale beyond soft reuse block
 the affected lane: research, ask a focused question, or explain the limitation.
 Model recollection alone is not research evidence.

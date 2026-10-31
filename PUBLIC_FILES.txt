@@ -56,6 +56,7 @@ scripts/refresh_hugo.py
 scripts/refresh_locus.py
 scripts/refresh_locus_rrl.py
 scripts/refresh_nebula.py
+skills/assess/SKILL.md
 skills/interview/SKILL.md
 skills/recommend/SKILL.md
 skills/research/SKILL.md

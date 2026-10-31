@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Start a private fiction taste record from book and DVD or Blu-ray shelf photos, then begin a focused taste interview. Use for new users without an established record.
+description: Start a private media taste record from book and DVD or Blu-ray shelf photos, then begin a focused taste interview. Use for new users without an established record.
 ---
 
 # Photo-first setup

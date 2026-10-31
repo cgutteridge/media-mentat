@@ -9,7 +9,7 @@ taste/inventory.md         # Shelf observations and identification confidence
 sources.md                # Private additions to public source defaults
 findings/                 # User's Finding cache, including archives
 research/                 # Candidate evidence and fact checks
-history/                  # Recommendations and feedback
+history/                  # Assessments, recommendations and feedback
 ```
 
 Existing layouts may be used without migration. Preserve established record
