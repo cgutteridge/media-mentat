@@ -13,6 +13,10 @@ For a supplied work, research that work directly; award/list membership is not a
 prerequisite for advice. Extend to nonfiction or other media with appropriate
 sources and explicit coverage limits. Verify requested concerns separately from
 positive fit evidence; no mention of a concern is not evidence of its absence.
+When registry coverage is inadequate for the genre, medium or kind of claim,
+follow [Add source](../add-source/SKILL.md). Read
+[media.md](../../references/media.md) when a new medium requires different fit
+criteria, such as game mechanics or documentary treatment.
 
 ## Living Lists
 
@@ -56,6 +60,8 @@ Append useful sources to the private overlay with role, medium, spoiler risk,
 URL and verification date. Retire dead sources with a reason. General source
 defaults may be improved during package maintenance after removing all user
 associations; recommendation sessions write to the private overlay.
+Source selection/validation and registration live in the add-source subskill;
+this workflow gathers candidate evidence from the selected sources.
 
 Finish with evidence for the requested question, a gate result where applicable,
 and explicit unsupported areas. If required tools or sources are unavailable,

@@ -1,6 +1,6 @@
 ---
 name: recommend
-description: Discover media through evidence-gated shortlists and creator gap fills from a private taste record and researched sources. Use when the user wants new things to try; route supplied suggestions and personal warnings to assessment.
+description: Recommend media in chat or documents using a private taste record and researched sources. Use for things to read, watch or play, shortlists and creator gaps across genres and media.
 ---
 
 # Evidence-gated recommend
@@ -9,6 +9,8 @@ Apply the [main skill](../../SKILL.md). Read [workspace.md](../../references/wor
 for paths and record format. Work in the established private workspace.
 For a supplied suggestion, “would I like this?” or “what might put me off?”, use
 [Assess](../assess/SKILL.md) rather than requiring a discovery shortlist.
+For a report or “add feedback to this list”, follow
+[Documents and lists](../documents/SKILL.md) for delivery/annotation.
 
 ## Load and scope
 
@@ -23,9 +25,20 @@ medium, format and comfort/stretch needs from the record or request; avoid
 inheriting package author's preferences. Mixed media are welcome when supported.
 The current pull CLI supports books (novel/novella), screen and short fiction;
 unsupported media require a Research pass with explicit evidence rather than a
-fabricated CLI result. Comics/games can use verified bibliography gap research.
+fabricated CLI result. Gaming, documentaries and other areas can use researched
+lists and reviews without pretending they are SF award categories. Follow
+[media adaptation](../../references/media.md) and [Add source](../add-source/SKILL.md)
+when relevant lists or reviews are missing. A new medium is not restricted to
+creator gap fills just because no shipped parser covers it.
 
 ## Pull and gate
+
+Use the following pull for supported cached list lanes. For other media/genres,
+research appropriate sources and keep source-linked notes or structured findings;
+apply the existing `evidence_gate.evaluate` with `to_gate_finding` to cached
+findings being reused. This is the same Evidence gate, not an invented decision
+procedure. Missing unrelated SF lists do not block a well-evidenced gaming or
+documentary lane. Every delivered item still needs its own relevant evidence.
 
 Use the packaged CLI, substituting the actual installation and workspace paths:
 
@@ -66,7 +79,9 @@ researched creator gaps where useful.
 
 Each pick includes title, creator, medium, lane (`fun`, `stretch` or `gap`), an
 Unread-safe reason tied to a stated preference, and a verified format/commitment
-note. Identify speculative fit as such. Evidence is required:
+note. Identify speculative fit as such. Include personally relevant possible
+turn-offs alongside the appeal when evidenced; assess the candidate critically
+rather than writing only a promotional blurb. Evidence is required:
 
 - Living List picks: `finding_id: ID`, with relevant gate allow and actual membership.
 - Bibliography gaps: `gap: rationale`, with a source link and private research note.
@@ -76,6 +91,10 @@ note. Identify speculative fit as such. Evidence is required:
 Separate source-supported facts from the fit inference. Omit unverified regional
 availability claims. Keep every unconfirmed work Unread-safe regardless of how
 familiar its title seems.
+
+Chat is the default presentation unless the user asks for a document. For document
+delivery use [Documents and lists](../documents/SKILL.md), carrying the same
+evidence, uncertainty and Unread-safe checks into the actual saved output.
 
 Save the offered titles and feedback in the private history. Persist explicit
 answers in dated Session addenda, and update certainty rows only when confirmed.

@@ -14,7 +14,7 @@ def init_workspace(workspace: Path) -> list[Path]:
         root / "sources.md": "sources.md",
     }
     # Validate all destinations before any filesystem mutation, including links.
-    for target in (*targets, root / "findings", root / "research", root / "history"):
+    for target in (*targets, root / "findings", root / "research", root / "history", root / "documents"):
         private_path(target)
     created = []
     for target, template in targets.items():
@@ -25,6 +25,6 @@ def init_workspace(workspace: Path) -> list[Path]:
         except FileExistsError:
             continue
         created.append(target)
-    for name in ("findings", "research", "history"):
+    for name in ("findings", "research", "history", "documents"):
         (root / name).mkdir(parents=True, exist_ok=True)
     return created

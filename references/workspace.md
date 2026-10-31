@@ -10,6 +10,7 @@ sources.md                # Private additions to public source defaults
 findings/                 # User's Finding cache, including archives
 research/                 # Candidate evidence and fact checks
 history/                  # Assessments, recommendations and feedback
+documents/                # Private reports and annotated lists
 ```
 
 Existing layouts may be used without migration. Preserve established record

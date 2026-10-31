@@ -8,6 +8,11 @@ description: Assess whether a user will enjoy a supplied book, film, show, game 
 Apply the [main skill](../../SKILL.md). This mode answers a user's question about
 a supplied work; it does not need to generate a new shortlist or establish award
 membership. It applies to fiction and nonfiction, subject to available evidence.
+Assess suggestions from other people and previous Media Mentat suggestions by the
+same standard. “Would I like Blade Runner?” routes here; resolve the version only
+if it matters to the user's question. This routing example establishes no user's
+taste or consumption. For “add feedback to this list”, also follow
+[Documents and lists](../documents/SKILL.md).
 
 ## Establish the question and evidence
 
@@ -20,6 +25,9 @@ Read the private constraints, relevant taste clusters, Consumption certainty and
 previous feedback. Search aliases and creator notes. If taste evidence is missing,
 ask one focused question; a general review is not a personalised assessment.
 A friend's enthusiasm is a lead, not proof of the user's enjoyment.
+If relevant genres or media are poorly covered, use
+[Add source](../add-source/SKILL.md) to find appropriate reviews or lists rather
+than judging from unrelated shipped sources.
 
 Use [research](../research/SKILL.md) to establish relevant voice, pace, structure,
 tone, subject treatment, content concerns or format demands. Award membership

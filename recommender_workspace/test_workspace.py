@@ -17,6 +17,7 @@ def test_blank_workspace_has_no_consumption_and_rerun_preserves_answers(tmp_path
     assert len(init_workspace(workspace)) == 3
     record = workspace / "taste/grilling-record.md"
     assert load_certainty_map(record) == {}
+    assert (workspace / "documents").is_dir()
     record.write_text(record.read_text() + "\nAn explicitly private answer.\n")
     (workspace / "sources.md").write_text("Private source additions\n")
 
@@ -43,6 +44,13 @@ def test_existing_workspace_cannot_route_new_records_into_package(tmp_path):
     with pytest.raises(ValueError, match="outside"):
         init_workspace(tmp_path)
     assert not (tmp_path / "sources.md").exists()
+
+
+def test_document_directory_cannot_point_into_public_package(tmp_path):
+    (tmp_path / "documents").symlink_to(PACKAGE_ROOT, target_is_directory=True)
+    with pytest.raises(ValueError, match="outside"):
+        init_workspace(tmp_path)
+    assert not (tmp_path / "taste").exists()
 
 
 @pytest.mark.parametrize("via_link", [False, True])

@@ -43,7 +43,9 @@ recommender_workspace/test_workspace.py
 references/gathering.md
 references/glossary.md
 references/maintenance.md
+references/media.md
 references/sources.md
+references/voice.md
 references/workspace.md
 scripts/check_public.py
 scripts/init_workspace.py
@@ -56,7 +58,9 @@ scripts/refresh_hugo.py
 scripts/refresh_locus.py
 scripts/refresh_locus_rrl.py
 scripts/refresh_nebula.py
+skills/add-source/SKILL.md
 skills/assess/SKILL.md
+skills/documents/SKILL.md
 skills/interview/SKILL.md
 skills/recommend/SKILL.md
 skills/research/SKILL.md

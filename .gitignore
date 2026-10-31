@@ -51,7 +51,9 @@
 !/references/gathering.md
 !/references/glossary.md
 !/references/maintenance.md
+!/references/media.md
 !/references/sources.md
+!/references/voice.md
 !/references/workspace.md
 !/scripts/
 !/scripts/check_public.py
@@ -66,8 +68,12 @@
 !/scripts/refresh_locus_rrl.py
 !/scripts/refresh_nebula.py
 !/skills/
+!/skills/add-source/
+!/skills/add-source/SKILL.md
 !/skills/assess/
 !/skills/assess/SKILL.md
+!/skills/documents/
+!/skills/documents/SKILL.md
 !/skills/interview/
 !/skills/interview/SKILL.md
 !/skills/recommend/
