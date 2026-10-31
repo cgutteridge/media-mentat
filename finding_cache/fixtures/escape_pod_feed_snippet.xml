@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Escape Pod</title>
+    <item>
+      <title>EP800: The Long Way Around</title>
+      <dc:creator><![CDATA[Sam Rivera]]></dc:creator>
+      <pubDate>Fri, 12 Sep 2025 08:00:00 +0000</pubDate>
+      <itunes:author>Sam Rivera</itunes:author>
+      <category><![CDATA[fiction]]></category>
+      <description><![CDATA[Do not store this synopsis as pitch text.]]></description>
+    </item>
+    <item>
+      <title>Editorial: Welcome Back</title>
+      <dc:creator><![CDATA[Host]]></dc:creator>
+      <pubDate>Thu, 11 Sep 2025 08:00:00 +0000</pubDate>
+      <category><![CDATA[editorial]]></category>
+    </item>
+    <item>
+      <title>EP799: Salt and Soft Light by Mei Chen</title>
+      <dc:creator><![CDATA[Mei Chen]]></dc:creator>
+      <pubDate>Fri, 05 Sep 2025 08:00:00 +0000</pubDate>
+      <category><![CDATA[fiction]]></category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Clarkesworld Magazine</title>
+    <item>
+      <title>A Vintage Kind of Death by Alex T. Singer</title>
+      <dc:creator><![CDATA[Alex T. Singer]]></dc:creator>
+      <pubDate>Thu, 01 Oct 2026 19:36:57 +0000</pubDate>
+      <category><![CDATA[fiction]]></category>
+      <category><![CDATA[text]]></category>
+      <description><![CDATA[Plot must not become member fields.]]></description>
+    </item>
+    <item>
+      <title>Interview: Someone Famous</title>
+      <dc:creator><![CDATA[Editor]]></dc:creator>
+      <pubDate>Wed, 01 Oct 2025 12:00:00 +0000</pubDate>
+      <category><![CDATA[interview]]></category>
+    </item>
+    <item>
+      <title>Quiet Orbit</title>
+      <dc:creator><![CDATA[Jordan Lee]]></dc:creator>
+      <pubDate>Mon, 02 Jun 2025 10:00:00 +0000</pubDate>
+      <category><![CDATA[fiction]]></category>
+    </item>
+  </channel>
+</rss>
